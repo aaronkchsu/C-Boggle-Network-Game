@@ -1,0 +1,117 @@
+﻿<Window x:Name="boggleClientWindow" x:Class="BoggleGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Extreme Boggle" Height="607" Width="903.5294117647059" FontFamily="Myriad Pro Cond" Foreground="#FFF7F3F3" FontSize="18" ResizeMode="NoResize" Closing="boggleClientWindow_Closing">
+    <Grid Opacity="1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="833*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="Resources/Sick Techno 85.jpg" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="4" Margin="-4,-4,0.667,1.667" Grid.RowSpan="2" Stretch="Fill">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.14"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Grid HorizontalAlignment="Left" Height="288" Margin="0,281,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="342" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="boggle14" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="10,10,10,0" Grid.Column="3" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond"/>
+            <Label x:Name="boggle13" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="11,10,10,0" Grid.Column="2" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond"/>
+            <Label x:Name="boggle12" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="10,10,10,0" Grid.Column="1" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond"/>
+            <Label x:Name="boggle11" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="11,10,10,0" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond"/>
+            <Label x:Name="boggle24" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="9,10,11,0" Grid.Column="3" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="1"/>
+            <Label x:Name="boggle23" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="10,10,11,0" Grid.Column="2" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="1"/>
+            <Label x:Name="boggle22" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="9,10,11,0" Grid.Column="1" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="1"/>
+            <Label x:Name="boggle21" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="10,10,11,0" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="1"/>
+            <Label x:Name="boggle34" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="10,10,10,0" Grid.Column="3" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="2"/>
+            <Label x:Name="boggle33" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="11,10,10,0" Grid.Column="2" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="2"/>
+            <Label x:Name="boggle32" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="10,10,10,0" Grid.Column="1" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="2"/>
+            <Label x:Name="boggle31" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="11,10,10,0" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="2"/>
+            <Label x:Name="boggle44" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="9,10,11,0" Grid.Column="3" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="3"/>
+            <Label x:Name="boggle43" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="10,10,11,0" Grid.Column="2" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="3"/>
+            <Label x:Name="boggle42" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="9,10,11,0" Grid.Column="1" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="3"/>
+            <Label x:Name="boggle41" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.456,0.281" HorizontalContentAlignment="Center" FontSize="40" Margin="10,10,11,0" Height="52" Foreground="#FFFDFDFD" FontFamily="Myriad Pro Cond" Grid.Row="3"/>
+        </Grid>
+        <Grid Margin="2,293,0,228.667" Grid.RowSpan="2" ShowGridLines="True"/>
+        <Grid Grid.Column="2" HorizontalAlignment="Left" Height="60" Margin="276,140,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="276" RenderTransformOrigin="0.498,0.511">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="67*"/>
+                <ColumnDefinition Width="178*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Username:" VerticalAlignment="Center" Foreground="#FFF9F7F7" Grid.IsSharedSizeScope="True" HorizontalAlignment="Left" Width="79" Height="26" Margin="0,2" FontFamily="Myriad Pro Light" FontSize="16" VerticalContentAlignment="Center" Grid.ColumnSpan="2"/>
+            <Label Content="IP Address:" HorizontalAlignment="Left" Margin="0,3,0,1" Grid.Row="1" VerticalAlignment="Center" Foreground="White" Height="26" Width="79" VerticalContentAlignment="Center" Grid.ColumnSpan="2" FontFamily="Myriad Pro Light" FontSize="16"/>
+            <TextBox x:Name="userBox" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="9.667,2,0,2" TextWrapping="Wrap" VerticalAlignment="Center" Width="181" VerticalContentAlignment="Center" TextChanged="userBox_TextChanged"/>
+            <TextBox x:Name="ipBox" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="9.667,3,0,1" TextWrapping="Wrap" VerticalAlignment="Center" Width="181" VerticalContentAlignment="Center" Grid.Row="1" TextChanged="ipBox_TextChanged"/>
+        </Grid>
+        <Grid Grid.Column="2" HorizontalAlignment="Left" Height="31" Margin="0,224,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="252" RenderTransformOrigin="0.517,0.6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="86*"/>
+                <ColumnDefinition Width="28*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="17*"/>
+                <ColumnDefinition Width="99*"/>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Time Remaining:" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFBF9F9" Height="31" Width="136" Margin="-30,0,0,0" Grid.ColumnSpan="2"/>
+            <Label x:Name="secondsLeftLabel" Content="Game Not Started" HorizontalAlignment="Right" VerticalAlignment="Top" Height="31" Width="159" Foreground="#FFFBF9F9" FontFamily="Shruti" FontSize="18" Margin="0,-4,0,0" Grid.ColumnSpan="5"/>
+        </Grid>
+        <Button x:Name="playButton" Content="PLAY" Grid.Column="2" HorizontalAlignment="Center" Margin="377,355,381.333,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="75" Foreground="White" Background="#FF554A4A" Click="playButton_Click" Height="31"/>
+        <Grid Grid.Column="2" HorizontalAlignment="Left" Height="27" Margin="590,465,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="260" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="65*"/>
+                <ColumnDefinition Width="175*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="WORD:" VerticalAlignment="Top" Foreground="#FFFDF5F5" Height="27" VerticalContentAlignment="Center" Margin="-18,0,187,0" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Width="91" Grid.ColumnSpan="3"/>
+            <TextBox x:Name="wordBox" HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" VerticalAlignment="Top" Width="182" Margin="58.667,0,0,0" TextChanged="HightlightLetters" Grid.ColumnSpan="2" KeyDown="EnterWord" Grid.Column="1"/>
+        </Grid>
+        <TextBox x:Name="wordsPlayedBox" Grid.Column="2" HorizontalAlignment="Left" Height="380" Margin="611,80,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" AcceptsReturn="True" IsEnabled="False"/>
+        <Label Content="Words Played:" Grid.Column="2" HorizontalAlignment="Left" Margin="590,43,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Foreground="#FFFDFBFB" Width="174" Height="37" HorizontalContentAlignment="Center" FontSize="20" FontFamily="MS Reference Sans Serif"/>
+        <Grid Grid.Column="2" HorizontalAlignment="Left" Height="64" Margin="312,465,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="231">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="64*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="117*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Score:" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FFFDFBFB" Height="31" Width="58" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="-2,2,8,-0.333" Grid.Row="1" Grid.ColumnSpan="2"/>
+            <Label HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFFDFBFB" Height="30" Width="49" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,2,0,0" Grid.ColumnSpan="2">
+                <Label Content="Score:" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFFDFBFB" Height="26" Width="53" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            </Label>
+            <Label x:Name="userNameLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFFDFBFB" Height="31" Width="115" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="2,2,-0.333,0" Grid.Column="3" Grid.RowSpan="2"/>
+            <Label x:Name="userScoreLabel" Content="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFFDFBFB" Height="31" Width="62" Margin="56,2,112.667,31.667" RenderTransformOrigin="0.777,0.615" Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+            <Label x:Name="oppScoreLabel" Content="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFFDFBFB" Height="31" Width="62" Margin="56,1,112.667,0.667" VerticalContentAlignment="Center" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1"/>
+            <Label x:Name="oppNameLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFFDFBFB" Height="31" Width="113" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="2,1,0,0" Grid.Column="3" Grid.Row="1"/>
+        </Grid>
+    </Grid>
+</Window>

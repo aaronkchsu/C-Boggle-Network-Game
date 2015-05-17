@@ -1,0 +1,17 @@
+﻿<Window x:Class="BoggleGUI.EndScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EndScreen" Height="414.694" Width="258.648" ResizeMode="NoResize">
+    <Grid Margin="0,0,21,-2.667" Height="388" VerticalAlignment="Top">
+        <Image Height="431" VerticalAlignment="Top" Source="Resources/Sick Techno end.jpg" Margin="-11,0,-32,-43"/>
+        <Grid Margin="0,33,-12,34" Panel.ZIndex="2" Height="321" HorizontalAlignment="Right" Width="233" Grid.ColumnSpan="3" Grid.RowSpan="3">
+            <Label x:Name="Player" Content="YOU" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top" Height="38" Width="50" FontSize="18" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.443,0.047"/>
+            <Label x:Name="Opponent" Content="OPPONENT" HorizontalAlignment="Left" Margin="156,10,0,0" VerticalAlignment="Top" Height="38" Width="46" FontSize="18" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.443,0.047"/>
+            <TextBox x:Name="WordsPlay" HorizontalAlignment="Left" Height="267" Margin="0,89,0,-35" TextWrapping="Wrap" VerticalAlignment="Top" Width="96" Opacity="0.5" IsEnabled="False" Background="#FFFFEAC7" Foreground="#FF0E0202" BorderBrush="#FFC1C1C1" SelectionBrush="#FF40A0FF"/>
+            <Label x:Name="PlayerEndScore" Content="Score" HorizontalAlignment="Left" Margin="23,48,0,0" VerticalAlignment="Top" Height="36" Width="50" FontFamily="Segoe UI Semilight" FontSize="16" Foreground="White"/>
+            <Label x:Name="OpponentEndScore" Content="Score" HorizontalAlignment="Left" Margin="152,48,0,0" VerticalAlignment="Top" Height="36" Width="50" FontFamily="Segoe UI Semilight" FontSize="16" Foreground="White"/>
+            <TextBox x:Name="WordsOpp" HorizontalAlignment="Left" Height="267" Margin="127,89,0,-35" TextWrapping="Wrap" VerticalAlignment="Top" Width="96" Opacity="0.5" IsEnabled="False" Background="#FF263145" Foreground="White"/>
+        </Grid>
+
+    </Grid>
+</Window>
